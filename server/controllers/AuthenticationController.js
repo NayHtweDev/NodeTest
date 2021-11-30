@@ -54,7 +54,8 @@ module.exports = {
 
         //save the new user data
         const user = await saveUserData(existUsers)
-        res.send({success: true, msg: 'User data added successfully'})
+        
+        res.send({success: true, msg: 'User data added successfully',data: userData})
 
     },
 

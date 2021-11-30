@@ -62,6 +62,8 @@ module.exports = {
                 error: 'Auth Failed'
             });
         }
+
+        console.log(req.body);
         
           const id = Math.random().toString();
           const title = req.body.title;

@@ -14,7 +14,7 @@ router.get('/api/parent-products', ParentController.getParentProduct);
 
 router.post('/api/add-parent-products', isAuth, ParentController.addParentProduct);
 
-router.get('/api/edit-parent-product/:parentId', isAuth, ParentController.getEditParentProduct);
+router.get('/api/edit-parent-product/:parentId', ParentController.getEditParentProduct);
 
 router.post('/api/edit-parent-product', isAuth, ParentController.postEditParentProduct);
 
