@@ -14,7 +14,7 @@ const isAuth = require('../middleware/is-auth');
 const multer = require('multer')
 
 
-
+//test
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
       cb(null, './uploads/');
